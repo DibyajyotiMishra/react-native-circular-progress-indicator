@@ -260,6 +260,7 @@ const props = {
 | inActiveStrokeWidth         | inactive progress circle stroke width                                                 | Number                        | 10                  | false    |
 | duration                    | progress animation duration                                                           | Number                        | 500                 | false    |
 | delay                       | progress animation delay                                                              | Number                        | 0                   | false    |
+| rotation                    | rotation value of the indicator(-360 - 360)                                           | Number                        | -90 | false    |
 | textColor                   | progress value text color                                                             | String                        |                     | false    |
 | textStyle                   | progress value text style                                                             | Object                        | {}                  | false    |
 | maxValue                    | progress maximum value. Percentage calculation is based on the maximum value provided | String                        | 100                 | false    |
